@@ -1,0 +1,15 @@
+Route::get('/pertanyaan', function () {
+  return view('PertanyaanController@index');
+});
+
+Route::get('/pertanyaan/create', function () {
+  return view('PertanyaanController@create');
+});
+
+return view(‘posts.edit’)->with($pertanyaan);
+
+Route::get('/jawaban/{pertanyaan_id}', function () {
+  return view('JawabanController@index');
+});
+
+return view(‘posts.edit’)->with($jawaban);
