@@ -1,0 +1,3 @@
+<a href="{url('/proc')}" class="btn btn-xs btn-primary">Edit</a>
+
+<a href="{url('/proc')}" class="btn btn-xs btn-danger";">Delete</a>
